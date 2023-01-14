@@ -193,3 +193,131 @@
 }
 
 /* feature section end */
+
+/* experience section start */
+.experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 20px 200px;
+
+}
+
+.ex-text {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 30px;
+    align-items: center;
+    padding: 50px;
+}
+
+.ex-text-1 {
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+
+
+}
+
+.ex-para {
+
+    padding: 0px 200px 0px 0px;
+}
+
+.ex-text-box {
+    box-shadow: 5px 5px 20px lightgray;
+    width: 600px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+
+
+.ex-button {
+    font-size: 40px;
+    width: 342px;
+    height: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 150px;
+}
+
+small {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* experience Responsive */
+@media screen and (max-width: 576px) {
+    .experience {
+        display: block;
+        padding: 5px;
+
+    }
+
+    .ex-text {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 20px;
+        align-items: center;
+        padding: 0px;
+        justify-items: center;
+        ma
+    }
+
+    .ex-text-1 {
+        border-left: 4px solid #FF900E;
+        padding-left: 10px;
+
+
+    }
+
+    .ex-para {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ex-text-box {
+        box-shadow: 5px 5px 20px lightgray;
+        width: 300px;
+        padding: 20px 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+    }
+
+    .ex-img {
+        padding: 20px;
+    }
+
+    .ex-img img {
+        width: 100%;
+        max-width: fit-content;
+        height: auto;
+    }
+
+    .ex-button {
+        font-size: 20px;
+        width: 171px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        bottom: 0px;
+
+    }
+
+    small {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}
+
+/* experience section end */
