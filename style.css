@@ -428,6 +428,98 @@ small {
 }
 
 /* sponspors End */
+
+/* form start */
+.form {
+    text-align: center;
+    box-shadow: 10px 10px 50px 20px lightgray;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #FF900E;
+}
+
+textarea {
+    margin: 10px;
+    padding: 20px 30px;
+    width: 400px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #FF900E;
+}
+
+@media screen and (max-width: 576px) {
+    .form {
+        text-align: center;
+        box-shadow: 10px 10px 50px 20px lightgray;
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+        margin-top: 10px;
+        width: 200px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border: 1px solid #FF900E;
+    }
+
+    textarea {
+        margin: 10px;
+        padding: 20px 30px;
+        width: 200px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border: 1px solid #FF900E;
+    }
+}
+
+/* form End */
+
 /* footer start */
 footer {
     background-color: #FFF4E7;
