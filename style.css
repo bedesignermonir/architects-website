@@ -404,3 +404,27 @@ small {
 
 
 /* facts Section End */
+
+/* sponspors Start */
+.sponspors {
+    text-align: center;
+}
+
+.sponspors-text {
+    padding: 20px 200px;
+}
+
+.sponspors-img img {
+    padding: 20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+/* sponspors responsive */
+@media screen and (max-width: 576px) {
+    .sponspors-text {
+        padding: 20px 0px;
+    }
+}
+
+/* sponspors End */
