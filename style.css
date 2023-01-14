@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: Work Sans;
+}
+
+/* navbar start */
+.navbar-section {
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 456px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* resposive navbar */
+@media screen and (max-width: 576px) {
+    .navbar-section {
+        background: rgba(255, 144, 14, 0.1);
+    }
+
+    .navbar {
+        display: grid;
+        text-align: center;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .nav-list {
+        display: block;
+        padding: 0px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .nav-list li {
+        list-style: none;
+        margin-left: 0px;
+    }
+
+}
+
+/* navbar Finished */
+
+/* hero section start */
+
+/* hero section end */
